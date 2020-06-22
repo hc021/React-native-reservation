@@ -2,7 +2,7 @@ import Axios from "axios";
 // import { TokenStore } from '../services/token';
 import AsyncStorage from '@react-native-community/async-storage';
 
-
+//edit
 export const GetBooking = async () => {
 
     const token = await AsyncStorage.getItem('token');
